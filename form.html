@@ -51,3 +51,56 @@
 </body>
 
 </html>
+<hr>
+<!-- Creating a new webpage for ticket booking. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book your Tickets</title>
+</head>
+
+<body>
+    <h2>Ticketbooking form</h2>
+    <form action="form.html">
+        <!-- Name -->
+
+        <label for="full Name:"></label><br>
+        Name:<input type="text" name="name" placeholder="Enter your full name"><br>
+        <!-- Email -->
+
+        <label for="Email:"></label><br>
+        E-mail:<input type="Email" name="email" placeholder="Enter your email">
+        <!-- Destination -->
+        <label for="From:"></label><br><br>
+        From:<input type="text" name="from" placeholder="From"><br><br>
+
+        <label for="To:"></label>
+        To:<input type="text" name="to" placeholder="To"><br><br>
+        <!-- Date -->
+
+        <label for="Journey Date:"></label>
+        Journey date:<input type="date" name="date" placeholder="Journey date"><br><br>
+        <label for="Departure date:"></label>
+        Departure Date:<input type="date" name="departure" placeholder="Departure date"><br><br>
+        <!-- Transportation -->
+
+        <select name="transport" id="transport">
+            <option value="transportation">Select your transportation</option>
+            <option value="bus">Bus</option>
+            <option value="train">Train</option>
+            <option value="flight">Flight</option>
+        </select><br><br>
+        <!-- <label for="transport">Select your transportation:</label><br>
+        <input type="radio" name="transport">Flight <br>
+        <input type="radio" name="transport">Train <br>
+        <input type="radio" name="transport">Bus <br><br> -->
+        <!-- Submit -->
+        <!-- <button>submit</button> -->
+        <input type="submit" value="Book Now">
+    </form>
+</body>
+
+</html>
