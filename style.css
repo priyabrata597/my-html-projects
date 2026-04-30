@@ -1,3 +1,44 @@
-body{
-    background-color: aliceblue;
+body {
+    background-color: #2E2E2E;
+}
+
+#name {
+    background-color: whitesmoke;
+}
+
+#Email {
+    background-color: whitesmoke;
+}
+
+#password{
+    background-color: whitesmoke;
+}
+
+.bg-blue {
+    background-color: blue;
+    color: white;
+}
+
+.submit {
+    background-color: black;
+    color: white;
+}
+
+h1{
+    color: whitesmoke;
+}
+h2{
+    color: whitesmoke;
+}
+ol{
+    color: whitesmoke;
+}
+ul{
+    color: whitesmoke;
+}
+table{
+    color: whitesmoke;
+}
+div{
+    color: whitesmoke;
 }
